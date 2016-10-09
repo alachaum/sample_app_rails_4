@@ -1,7 +1,2 @@
 #!/bin/bash
-
-DEPLOY_FILE_URL=...
-
-curl -o $DEPLOY_FILE_URL
-
 echo "This is a deploy hook!"
