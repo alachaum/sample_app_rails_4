@@ -17,7 +17,7 @@ gem 'jbuilder', '1.0.2'
 
 # Database
 gem 'sqlite3', '1.3.11', platforms: :ruby
-gem 'activerecord-jdbcsqlite3-adapter', platforms: :jruby
+gem 'activerecord-jdbcsqlite3-adapter', '~> 1.3.21', platforms: :jruby
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
